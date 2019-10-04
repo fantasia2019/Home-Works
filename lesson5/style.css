@@ -1,0 +1,36 @@
+
+.desert{
+    background: url(img/desert1.jpg) no-repeat;
+    height: 800px;
+    width: 1530px;
+
+    
+}
+
+.svinks{
+    background-size: url(img/svinks.png);
+    top: auto;
+    right: auto;
+    bottom: 0
+
+    
+}
+
+.piramida{
+
+}
+.camel2{
+
+}
+.NLO{
+
+}
+.snake{
+
+}
+.pingvin{
+
+}
+.stars{
+
+}
