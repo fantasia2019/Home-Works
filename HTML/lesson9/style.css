@@ -1,4 +1,8 @@
-.table{
+.size{
+    border: 1px solid black;
+}
+
+.box{
     border-collapse: collapse;
     width: 100%;
 }
@@ -8,44 +12,115 @@
 }
 
 .title{
-    caption-side: bolt;
-    text-align: center;
+    caption-side: top; /*положения заголовка таблицы*/
+    text-align: center; /*выравнивание текста*/
 }
 
-.table tbody tr:nth-child(1) td:nth-child(1){ /* тоже самое что :first-child */
-    border-right: 0;
+th{
+    font-weight: normal;
 }
-.table tbody tr:nth-child(1) td:nth-child(2){ /* тоже самое что :first-child */
+
+td{
+    text-align: top;
+}
+
+.box tbody tr:nth-child(1) td:nth-child(1){  
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.box tbody tr:nth-child(1) td:nth-child(2){ 
+    border-right: 0;
     border-left: 0;
 }
-.table td{
-    padding: 15px;
+
+.box tbody tr:nth-child(1) td:nth-child(3){ 
+    border-left: 0;
+    border-right-width: 4px; 
 }
 
-/* Рамки */
+.box tbody tr:nth-child(2) td:nth-child(1){ 
+    border-right: 0;
+    border-top: 0;
+}
 
-.border{
-    width: 400px;
-    height: 300px;
-    background: purple;
+.box tbody tr:nth-child(2) td:nth-child(2){ 
+    border-right: 0;
+    border-left: 0;
+}
 
-    border: 4px solid red;
+.box tbody tr:nth-child(2) td:nth-child(3){ 
+    border-left: 0;
+    border-right-width: 4px; 
+}
 
-    border-width: 10px; /* толщина рамки */
-    border-style: dotted; /* стиль по умолчанию*/
-    border-color: blue; /* цвет рамки*/
+.box tfoot tr:nth-child(1) td:nth-child(1){ 
+    border-right: 0;
+}
 
-    /*
-        border: 4px solid red;
-                4px solid red;
-                4px solid red;
-                4px solid red;
+.box tfoot tr:nth-child(1) td:nth-child(2){ 
+    border-right: 0;
+    border-left: 0;
+}
 
-         можна задать стиль разный для всех 4 сторон. начиная с верхней и по часовой стрелки
+.box tfoot tr:nth-child(1) td:nth-child(3){ 
+    border-left: 0;
+    border-right-width: 4px; 
+}
 
-        border-width: 4px; 5px; 6px; 7px;
-        border-style: solid solid dotted dashed; 
-        border-color: red blue green black; 
-    */
+.box thead tr:nth-child(1) th:nth-child(1){  
+    border-right-width: 4px; 
+}
+
+.box td{
+    padding: 15p px
+}
+
+
+/* вирівнювання тексту в ячейках*/
+
+.box tbody tr:nth-child(1) td:nth-child(4){ 
+   text-align: right;
+}
+.box tbody tr:nth-child(1) td:nth-child(5){ 
+    text-align: right;
+ }
+ .box tbody tr:nth-child(1) td:nth-child(6){ 
+    text-align: right;
+ }
+ .box tbody tr:nth-child(1) td:nth-child(7){ 
+    text-align: right;
+ }
+
+ .box tbody tr:nth-child(2) td:nth-child(4){ 
+    text-align: right;
+ }
+
+ .box tbody tr:nth-child(2) td:nth-child(5){ 
+    text-align: right;
+ }
+
+ .box tbody tr:nth-child(2) td:nth-child(6){ 
+    text-align: right;
+ }
+
+ .box tbody tr:nth-child(2) td:nth-child(7){ 
+    text-align: right;
+ }
+
+ .box tfoot tr:nth-child(1) td:nth-child(4){ 
+    text-align: right;
+ }
+ .box tfoot tr:nth-child(1) td:nth-child(5){ 
+    text-align: right;
+ }
+ .box tfoot tr:nth-child(1) td:nth-child(6){ 
+    text-align: right;
+ }
+ .box tfoot tr:nth-child(1) td:nth-child(7){ 
+    text-align: right;
+ }
+
+
 
     
