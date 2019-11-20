@@ -20,10 +20,6 @@ th{
     font-weight: normal;
 }
 
-td{
-    text-align: top;
-}
-
 .box tbody tr:nth-child(1) td:nth-child(1){  
     border-right: 0;
     border-bottom: 0;
@@ -73,7 +69,7 @@ td{
 }
 
 .box td{
-    padding: 15p px
+    padding: 15px 0;
 }
 
 
