@@ -1,0 +1,79 @@
+*{margin: 0;
+padding: 0;
+}
+
+.container{
+    height: 1800px;
+    width: 1260px;
+    background: url(img/Layer\ 1.jpg) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+} 
+
+#header{
+    height: 205px;
+    width: 1260px;
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+
+#main{
+    height: 1455px;
+    width: 1260px;
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.main_first{
+    height: 512px;
+    width: 1020px;
+    background: url(img/Shape\ 1.png) no-repeat center;
+}
+
+.main_second{
+    height: 483px;
+    width: 620px;
+    background: url(img/Vector\ Smart\ Object.png) no-repeat center;
+}
+
+.main_third{
+    height: 483px;
+    width: 380px;
+    background: url(img/Shape\ 3.png) no-repeat center;
+}
+
+.main_fourth{
+    height: 420px;
+    width: 260px;
+    background: url(img/Shape\ 31.png) no-repeat center;
+}
+
+.main_fifth{
+    height: 420px;
+    width: 260px;
+    background: url(img/Layer\ 1.jpg) no-repeat center;
+}
+
+.main_sixth{
+    height: 420px;
+    width: 460px;
+    background: url(img/Vector\ Smart\ Object6.png) no-repeat center;
+}
+
+#footer{
+    height: 140px;
+    width: 1260px;
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
